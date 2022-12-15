@@ -1,0 +1,8 @@
+food = input("Name a food > ")
+plant = input("Name a type of plant > ")
+cooking = input("Name a method of cooking > ")
+word = input("What word describes burned food? > ")
+diy = input("Name a DIY item > ")
+print("")
+print("MENU")
+print("Bellisimo! Today we will be having", cooking, food, ", mixed with a", word, plant, "that is made better by a", diy)
