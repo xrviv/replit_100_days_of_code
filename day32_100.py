@@ -1,11 +1,14 @@
 import random
 
 greetings = ["Hoy", "Hej", "Hei", "Shalom", "Yassas", "Goedendag"]
+name = ["Bob", "John", "Mary", "Peter", "Sally", "Zoe"]
+age = ["18", "22", "24", "26", "28", "30"]
 
-b = random.choice(greetings)
+a = random.choice(greetings)
+b = random.choice(name)
+c = random.choice(age)
 
-name = "Bob"
 age = 18
 
-message = f"{b}, my name is {name} and I am {age} years old."
+message = f"{a}, my name is {b} and I am {c} years old."
 print(message)
