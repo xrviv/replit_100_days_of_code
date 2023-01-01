@@ -1,3 +1,6 @@
+// String manipulation challenge
+// Create a list with no duplicates and output them on a list.
+
 import os, time
 nameList = []
 
