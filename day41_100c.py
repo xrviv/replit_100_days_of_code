@@ -4,7 +4,7 @@ myDictionary = {"name" : "David the Mildy Terrifying", "health": 186, "strength"
 for name, value in myDictionary.items():
 print(f"{name}: {value}")
 
-if (name == "strength"): 
+if (name == "strength"):
 if value > 100: # This nested if wasn't indented properly
   print("Whoa, SO STRONG")
 else:
