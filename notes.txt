@@ -1,0 +1,11 @@
+January 8, 2022
+
+When David means pretty print, he usually means this:
+
+def prettyPrint():
+	print()
+	for row in listOfshame:
+		print(row)
+	print()
+
+# A way to print rows and columns, neatly. CMIIW
