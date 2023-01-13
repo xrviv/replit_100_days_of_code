@@ -2,10 +2,10 @@ import time, os
 
 counter = 1
 f = open("high.score", "a+")
+print("HIGH SCORE TABLE\n")
 f.write("HIGH SCORE TABLE\n")
 while True:
     print()
-    print("HIGH SCORE TABLE\n")
     userInit = input("INITIALS > ")
     f.write(f"{userInit:<5}\t")
     score = input("SCORE > ")
@@ -16,6 +16,7 @@ while True:
         continue
     else:
         print("Exiting program...")
+        print("Saving...")
         time.sleep(1)
         f.close()
         break
