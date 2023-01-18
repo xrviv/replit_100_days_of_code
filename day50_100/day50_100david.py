@@ -21,6 +21,7 @@ def show():
 	os.system("clear")
 
 while True:
+	os.system("clear")
 	menu = input("1: Add idea\n2: Show a random idea\n>")
 	if menu == "1":
 		add()
